@@ -82,6 +82,39 @@ We can filter data by:- Data Type, Salesperson, Customer Status (Existing/Prospe
 ○	Printers/Publishers need exact GSM/quality specs and may accept tight ±2 GSM or nearest Size A substitutions with proofs.
 ○	Packaging often values High Bulk and caliper stability; MOQs and repeat-run agreements help.
 
+# Suggestions to Raise Sales:-
+A. Daily operating routine (team)
+1.	Hot-lead sweep (15 min):
+ Last-16-Days → Data Type = Inquiry → Customer Status = Prospective → Stock Type = Company
+○	Call back same day; send quote/WhatsApp PDF from filtered SKU list.
+
+3.	Substitution check: If no exact match, allow ±2 GSM and nearest Size A where print/package spec allows; include HBNS/Uncoated/GNP alternates.
+4.	Bundle to move slow stock: Offer a small discount when pairing a fast-moving match with a slow-moving SKU.
+B. Weekly actions (manager)
+
+1.	Gap & surplus report:
+○	Top 10 Under-supplied SKUs (high inquiries, low company stock).
+○	Top 10 Over-stocked SKUs (low recent demand, high stock; include days-on-hand).
+
+2.	Segment campaigns:
+○	Traders: lot-based deals and assortment packs.
+○	Printers: “Ready-to-ship GNP 45–50 GSM” promos; share trial sheets.
+○	Packaging: push High Bulk ranges with MOQ incentives.
+
+3.	Salesperson scorecard: Track Inquiry → Quote → Sale conversion and 48-hour callback adherence.
+
+C. Purchasing & sourcing
+●	Replenishment triggers: If Inquiry volume for a GSM/Size (e.g., GNP 45–50) exceeds Company stock for 2+ weeks, place a controlled buy.
+●	Market buy-to-order: Use Stock Type = Market when company stock is short and margin is preserved (set a minimum GM%).
+
+D. Data quality (quick wins)
+●	Standardize Category names (avoid duplicates like “Printing Press” vs “Printer”).
+●	Make contact number mandatory on every inquiry.
+●	Normalize GSM and Size entries to numeric fields to improve matching and alerts.
+
+
+
+
 
 
 
