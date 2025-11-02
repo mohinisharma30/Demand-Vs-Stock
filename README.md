@@ -3,7 +3,7 @@ A Power BI dashboard that compares customer demand (Sales + Inquiry records) wit
 This provides a consolidated view of paper demand and stock availability by integrating customer inquiry data and sales records from 2017 to 2025. It helps track real-time inquiries for different paper types, sizes, and GSM ranges, while simultaneously monitoring the company’s and market’s paper stock levels. The dashboard serves as a one-stop solution for understanding supply-demand gaps and supporting timely business decisions.
 
 # Objectives:-
-#The main objective of this dashboard is to analyze paper demand trends against available stock to ensure efficient inventory management and customer fulfillment. It enables users to monitor which paper types are in high demand, evaluate existing and prospective customer behavior, and optimize purchasing or production planning based on data-driven insights.
+The main objective of this dashboard is to analyze paper demand trends against available stock to ensure efficient inventory management and customer fulfillment. It enables users to monitor which paper types are in high demand, evaluate existing and prospective customer behavior, and optimize purchasing or production planning based on data-driven insights.
 
 # Project Highlights:-
 **Data Coverage:** From 2017 to 2025 (includes historical and current data).
