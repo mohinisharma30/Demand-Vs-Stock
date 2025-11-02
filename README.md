@@ -1,11 +1,11 @@
-# Demand vs Stock
+# Demand vs Stock Dashboard
 A Power BI dashboard that compares customer demand (Sales + Inquiry records) with available stock (our Company stock and Market stock).
 This provides a consolidated view of paper demand and stock availability by integrating customer inquiry data and sales records from 2017 to 2025. It helps track real-time inquiries for different paper types, sizes, and GSM ranges, while simultaneously monitoring the company’s and market’s paper stock levels. The dashboard serves as a one-stop solution for understanding supply-demand gaps and supporting timely business decisions.
 
 # Objectives:-
 #The main objective of this dashboard is to analyze paper demand trends against available stock to ensure efficient inventory management and customer fulfillment. It enables users to monitor which paper types are in high demand, evaluate existing and prospective customer behavior, and optimize purchasing or production planning based on data-driven insights.
 
-# Project Highlights
+# Project Highlights:-
 **Data Coverage:** From 2017 to 2025 (includes historical and current data).
 
 **Data Integration:** Combined datasets of customer inquiries and sales records.
@@ -26,91 +26,41 @@ This provides a consolidated view of paper demand and stock availability by inte
 ## 	Unified demand lens: 
 ○ Sales + Inquiry in one table—see intent and conversion together.
 
-## Dual stock sources: 
-○ Toggle Stock Type = Company / Market to compare own vs external availability.
-
-## SKU-level precision: 
-○ Filters for Paper Type, GSM (numeric range), Size A (range) enable exact/near-match analysis.
-
-## Customer intelligence:
-○	Status: Existing vs Prospective.
-○	Category: Trader, Offset/Label/Commercial Printer, Packaging, Publisher, etc.—for segment-specific messaging.
-
-## Time agility: 
-○ Last-16-Days view for hot leads; long window 2017–2025 for trend context.
-
-## Sales performance hooks: 
-○ Salesperson filter and visible totals for coaching and target setting.
-
-## Clean UX: 
-○ Rounded filter cards, side-by-side Demand/Stock tables, bottom totals, horizontal scroll for wide grids.
-
-## Action-ready fields: 
-○ Contact names/numbers in demand and stock lists to enable instant outreach.
 
 # Insights:-
+## 1. Data Coverage
+○ The dashboard integrates inquiry and sales data from 2017–2025, offering a clear view of both historical and current demand trends. It helps track performance over time and supports data-driven stock management.
 
-# Demand side
-## Two demand modes: 
-○ Sales (confirmed consumption) and Inquiry (buying intent). Treat Inquiries as near-pipeline; quickest wins come from Prospective + Last-16-Days.
+## 2. Demand Analysis
+○ It captures daily customer inquiries by paper type, size, and GSM, showing which papers are most requested. This helps identify popular grades and customer buying patterns.
 
-## Conversion leverage: 
-○ Many inquiry rows include contact numbers—this shortens the path from inquiry → quote → order.
+## 3. Sales Performance
+○ By linking inquiry and sales data, the dashboard reveals which paper types like Gloss, Cromo-C1S, and Kraft paper are best. It helps in spotting top-performing and slow-moving items.
 
-## Category mix for targeting: 
-○ Filters show a broad set (Traders, multiple Printer types, Packaging, Publishers, Paper Coating, Importers). This enables tailored offers and price logic per segment.
+## 4. Stock Monitoring
+○ Displays detailed company and market stock information including GSM, size, and quantity. The total stock amount (18112.14K) indicates strong inventory levels for timely order fulfillment.
 
-## Salesperson accountability: 
-○ Demand rows carry mapped salesowners—use this to monitor follow-ups and conversion rates.
+## 5. Customer Segmentation
+○ Classifies customers as existing or prospective, helping track loyal buyers and target new leads effectively. It also reflects which business categories are most active.
 
-# Stock side:-
-## SKU clusters present:
-○ Repeated entries for GNP around GSM ~45–50 and sizes roughly 18–38 A-size suggest a core stock band suitable for fast conversions.
+## 6. Product Variety
+○ Covers around 15–16 paper types with GSM ranging from 25–725 and size from 1.77–5325, ensuring flexibility to serve multiple industries like printing, packaging, and publishing.
 
-## Two supply paths: 
-○ Ability to switch Company ↔ Market stock supports instant decisioning: ship from own stock, or source externally if margin holds.
+# Recommendations:-
+## 1. Forecast Demand
+○ Use historical sales and inquiry trends to predict future demand accurately. This will help maintain adequate stock and reduce shortages.
 
-## Strong inventory headline: 
-○ KPI cards show large totals (e.g., 18,509.09K in one view; 3,261.48K in a filtered view), indicating room to unlock cash by moving slow lines.
+## 2. Optimize Inventory
+○ Focus on balancing stock levels by maintaining sufficient quantities for high-demand papers and minimizing idle stock of low-demand ones.
 
-# Cross-view observations
-## Best-fit opportunities:
-○ Start with Inquiry + Prospective + Last-16-Days and intersect with Company stock in GNP 45–50 GSM and nearby sizes—high probability quick wins.
+## 3. Promote Key Products
+○ Prioritize and promote frequently demanded papers such as Gloss and Cromo-C1S to maximize profitability and turnover.
 
-## Segment economics:
-○	Traders respond to lot sizes and blended pricing.
-○	Printers/Publishers need exact GSM/quality specs and may accept tight ±2 GSM or nearest Size A substitutions with proofs.
-○	Packaging often values High Bulk and caliper stability; MOQs and repeat-run agreements help.
+## 4. Strengthen Customer Conversion
+○ Follow up with prospective customers using offers, quotations, or samples to increase conversion rates and build long-term relationships.
 
-# Suggestions to Raise Sales:-
-A. Daily operating routine (team)
-1.	Hot-lead sweep (15 min):
- Last-16-Days → Data Type = Inquiry → Customer Status = Prospective → Stock Type = Company
-○	Call back same day; send quote/WhatsApp PDF from filtered SKU list.
-
-3.	Substitution check: If no exact match, allow ±2 GSM and nearest Size A where print/package spec allows; include HBNS/Uncoated/GNP alternates.
-4.	Bundle to move slow stock: Offer a small discount when pairing a fast-moving match with a slow-moving SKU.
-B. Weekly actions (manager)
-
-1.	Gap & surplus report:
-○	Top 10 Under-supplied SKUs (high inquiries, low company stock).
-○	Top 10 Over-stocked SKUs (low recent demand, high stock; include days-on-hand).
-
-2.	Segment campaigns:
-○	Traders: lot-based deals and assortment packs.
-○	Printers: “Ready-to-ship GNP 45–50 GSM” promos; share trial sheets.
-○	Packaging: push High Bulk ranges with MOQ incentives.
-
-3.	Salesperson scorecard: Track Inquiry → Quote → Sale conversion and 48-hour callback adherence.
-
-C. Purchasing & sourcing
-●	Replenishment triggers: If Inquiry volume for a GSM/Size (e.g., GNP 45–50) exceeds Company stock for 2+ weeks, place a controlled buy.
-●	Market buy-to-order: Use Stock Type = Market when company stock is short and margin is preserved (set a minimum GM%).
-
-D. Data quality (quick wins)
-●	Standardize Category names (avoid duplicates like “Printing Press” vs “Printer”).
-●	Make contact number mandatory on every inquiry.
-●	Normalize GSM and Size entries to numeric fields to improve matching and alerts.
+## 5. Real-Time Dashboard Updates
+○ Automate daily data refresh in the dashboard/report to ensure management always works with the most current insights for faster decision-making.
 
 
 
