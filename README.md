@@ -3,9 +3,26 @@ A Power BI dashboard that compares customer demand (Sales + Inquiry records) wit
 This provides a consolidated view of paper demand and stock availability by integrating customer inquiry data and sales records from 2017 to 2025. It helps track real-time inquiries for different paper types, sizes, and GSM ranges, while simultaneously monitoring the company’s and market’s paper stock levels. The dashboard serves as a one-stop solution for understanding supply-demand gaps and supporting timely business decisions.
 
 # Objectives:-
-##The main objective of this dashboard is to analyze paper demand trends against available stock to ensure efficient inventory management and customer fulfillment. It enables users to monitor which paper types are in high demand, evaluate existing and prospective customer behavior, and optimize purchasing or production planning based on data-driven insights.
+#The main objective of this dashboard is to analyze paper demand trends against available stock to ensure efficient inventory management and customer fulfillment. It enables users to monitor which paper types are in high demand, evaluate existing and prospective customer behavior, and optimize purchasing or production planning based on data-driven insights.
 
 # Project Highlights
+**Data Coverage:** From 2017 to 2025 (includes historical and current data).
+
+**Data Integration:** Combined datasets of customer inquiries and sales records.
+
+**Filters & Parameters:** Data Type, Company Name, Customer Name, Date, Category, Stock Type, GSM Range, Size, Month-Year, and Customer Status.
+
+**Paper Categories:** Around 15–16 paper types including Gloss, Cromo-C1S Gloss, Kraft Paper, Virgin Kraft, Silky Matte, High Bulk, FBB, SBS-C1S/C2S, LWC-Gloss, Packaging Paper, etc.
+
+**Customer Segments:** Paper Traders, Commercial Printers, Importers, Label Printers, Thermal Roll Manufacturers, Publishers, and Packaging Industries.
+
+**Customer Status Tracking:** Differentiates between Existing and Prospective customers.
+
+**Stock Monitoring:** Displays both Company Stock and Market Stock quantities with detailed attributes like Paper Type, GSM, Size, and Quantity (Kg).
+
+**Dynamic Time Filters:** Enables quick filtering for last 16 days, month-wise, or custom date ranges.
+
+**Total Stock Value Indicator:** Displays cumulative stock (e.g., 18112.14K) for quick assessment.
 ## 	Unified demand lens: 
 ○ Sales + Inquiry in one table—see intent and conversion together.
 
