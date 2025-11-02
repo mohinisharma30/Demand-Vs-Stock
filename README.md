@@ -23,9 +23,6 @@ The main objective of this dashboard is to analyze paper demand trends against *
 **Dynamic Time Filters:** Enables quick filtering for last 16 days, month-wise, or custom date ranges.
 
 **Total Stock Value Indicator:** Displays cumulative stock (e.g., 18112.14K) for quick assessment.
-## 	Unified demand lens: 
-○ Sales + Inquiry in one table—see intent and conversion together.
-
 
 # Insights:-
 ## 1. Data Coverage
@@ -44,23 +41,29 @@ The main objective of this dashboard is to analyze paper demand trends against *
 ○ Classifies customers as existing or prospective, helping track loyal buyers and target new leads effectively. It also reflects which business categories are most active.
 
 ## 6. Product Variety
-○ Covers around 15–16 paper types with GSM ranging from 25–725 and size from 1.77–5325, ensuring flexibility to serve multiple industries like printing, packaging, and publishing.
+○ Covers around 15–16 paper types with GSM ranging from 25–725 and size from 1.77–100, ensuring flexibility to serve multiple industries like printing, packaging, and publishing.
 
 # Recommendations:-
 ## 1. Forecast Demand
-○ Use historical sales and inquiry trends to predict future demand accurately. This will help maintain adequate stock and reduce shortages.
+○ Use historical inquiry and sales data trends (2017–2025) to build forecasting models that predict upcoming demand, ensuring optimized stock procurement and minimal shortages.
 
-## 2. Optimize Inventory
-○ Focus on balancing stock levels by maintaining sufficient quantities for high-demand papers and minimizing idle stock of low-demand ones.
+## 2. Maintain Optimal Inventory Levels
+○ Regularly track the Demand vs Stock ratio to avoid overstocking slow-moving items and understocking high-demand papers like Gloss and Cromo-C1S. Implement reorder alerts for critical stock levels.
 
-## 3. Promote Key Products
-○ Prioritize and promote frequently demanded papers such as Gloss and Cromo-C1S to maximize profitability and turnover.
+## 3. Focus on High-Performing Paper Types
+○ Prioritize procurement and marketing for paper types with consistent inquiries and higher sales conversion rates. This will improve revenue flow and reduce excess inventory.
 
-## 4. Strengthen Customer Conversion
-○ Follow up with prospective customers using offers, quotations, or samples to increase conversion rates and build long-term relationships.
+## 4. Enhance Customer Engagement Strategy
+○ Use the Customer Status data to convert prospective customers into existing ones through targeted follow-ups, pricing offers, or product trials — especially in high-demand segments like packaging and printing.
 
-## 5. Real-Time Dashboard Updates
-○ Automate daily data refresh in the dashboard/report to ensure management always works with the most current insights for faster decision-making.
+## 5. Improve Sales-Stock Synchronization
+○ Ensure continuous alignment between inquiry trends and available stock through weekly reviews. This will reduce lead times and help maintain a healthy sales pipeline.
+
+## 6. Utilize Dashboard for Business Decisions
+○ Encourage the sales, procurement, and management teams to use this dashboard regularly for data-driven decisions — such as product planning, production scheduling, and stock optimization.
+
+## 7. Implement Real-Time Updates
+○ Automate data refresh processes so that the dashboard reflects daily inquiry and stock changes. This keeps the business agile and responsive to market dynamics.
 
 
 
