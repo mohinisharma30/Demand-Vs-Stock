@@ -9,6 +9,8 @@ The main objective of this dashboard is to analyze paper demand trends against *
 **Data Coverage:** From 2017 to 2025 (includes historical and current data).
 
 **Data Integration:** Combined datasets of customer inquiries and sales records.
+<img width="1410" height="787" alt="image" src="https://github.com/user-attachments/assets/927eb838-f5e4-485d-a40f-b6ce3e3dafdf" />
+
 
 **Filters & Parameters:** Data Type, Company Name, Customer Name, Date, Category, Stock Type, GSM Range, Size, Month-Year, and Customer Status.
 
