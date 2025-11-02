@@ -1,26 +1,9 @@
 # Demand vs Stock
 A Power BI dashboard that compares customer demand (Sales + Inquiry records) with available stock (our Company stock and Market stock).
-We can filter data by:- Data Type, Salesperson, Customer Status (Existing/Prospective), Category (Trader, Printer, Publisher, Packaging, etc.), Paper Type, GSM range, Size, Date/Month-Year, and a quick Last-16-Days.
+This provides a consolidated view of paper demand and stock availability by integrating customer inquiry data and sales records from 2017 to 2025. It helps track real-time inquiries for different paper types, sizes, and GSM ranges, while simultaneously monitoring the company’s and market’s paper stock levels. The dashboard serves as a one-stop solution for understanding supply-demand gaps and supporting timely business decisions.
 
 # Objectives:-
-## 1.	Match demand to inventory:-
-○	Find exact/near-match SKUs (Paper Type × GSM × Size) for live inquiries.
-○	Reduce lost orders and quote turnaround time.
-
-## 2.	Expose supply–demand gaps by spec:-
-○	Identify Under-supplied (high demand × low stock) and Over-stocked (low demand × high stock) combinations.
-
-## 3.	Prioritize revenue actions
-○	Focus on Prospective inquiries within the Last-16-Days, and by Salesperson for accountability.
-
-## 4.	Improve conversion and cash flow
-○	Convert idle inventory into sales; create substitution/bundle offers where exact matches aren’t available.
-
-## 5.	Guide purchasing and sourcing
-○	When repeated demand outstrips Company stock but Market stock is available, trigger buy-to-order with margin checks.
-
-## 6.	Standardize data for scale
-○	Enforce clean labels for Category/Status and normalized GSM/Size ranges to keep matching accurate.
+##The main objective of this dashboard is to analyze paper demand trends against available stock to ensure efficient inventory management and customer fulfillment. It enables users to monitor which paper types are in high demand, evaluate existing and prospective customer behavior, and optimize purchasing or production planning based on data-driven insights.
 
 # Project Highlights
 ## 	Unified demand lens: 
